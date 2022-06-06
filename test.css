@@ -94,30 +94,6 @@ hr{
   
 }
 
-.listExperience>li{
-  display: flex;
-  margin-bottom: 10px;
-  
-}
-
-.listExperience>li:nth-child(1) ul{
-  border-color: #ff7168;
-}
-.listExperience>li:nth-child(2) ul{
-  border-color: #ffa582;
-}
-.listExperience>li:nth-child(3) ul{
-  border-color: #ffb087;
-}
-.listExperience>li:nth-child(4) ul{
-  border-color: #ffde9e;
-}
-
-.listExperience li ul{
-  padding-left: 10px;
-  border-left: solid 4px white;
-  margin-left: 10px;
-}
 
 
 /* list skill */
@@ -135,57 +111,6 @@ hr{
   align-items: center;
   text-align: center;
 }
-
-
-
-.circle{
-  width: 50px;
-  height: 50px;
-  background-color: #fff;
-  border-radius: 50%;
-  position: relative;
-  overflow: hidden;
-  background-color: rgba(255, 113, 104, 0.4);
-}
-.circle::after{
-  content: "";
-  display: block;
-  background-color: #755241;
-  width: calc(100% - 20px);
-  height: calc(100% - 20px);
-  border-radius: 50%;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
-  
-  
-  
-}
-
-.p90,.p180,.p270,.p360{
-  width: 50%;
-  height: 50%;
-  
-  left: 50%;
-  top: 0;
-  background-color: #ff7168;
-}
-
-
-.p180{
-  left: 0;
-  top: 50%;
-}
-.p270{
-  left: 0;
-  top: 50%;
-}
-.p360{
-  left: 0;
-  top: 10%;
-}
-
 
 /* list programming */
 .listProgram .bar{
